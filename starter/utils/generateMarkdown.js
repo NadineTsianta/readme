@@ -8,42 +8,40 @@ function generateMarkdown(response) {
   
   ## Table of Contents
   
-  - ${[installation]}(#installation)
-  - ${[usage]}(#usage)
-  - ${[contribution]}(#contribution)
-  - ${[license]}(#license)
-  - ${[badge]}(#badge)
-  - ${[tests]}(#tests)
-  - Questions
+  - [installation](#installation)
+  - [usage](#usage)
+  - [contribution](#contribution)
+  - [license](#license)
+  - [badge](#badge)
+  - [tests](#tests)
+  - [Questions](#questions)
   
   
   
   ## Installation
   
-   ${[response.installation]}
+   ${response.installation}
+   ![Application Screenshot](${response.image})
+   [Video](${response.video})
   
   ## Usage
    ${[response.usage]}
   
   ## Contribution Guidelines
   
-   ${[response.contribution]}
+   ${response.contribution}
   
   ## License
-   ${[response.license]}
+   ${response.license}
   
-  
-
-  
-  
-  
+   
   
   ## Tests
    ${[response.tests]}
    
   ## Questions
-     Github_Username: https://github.com/${response.username}
-     Contact_me: ${response.email}
+   [Github_Profile](https://github.com/${response.username})
+   [Contact_me](${response.email})
    `;
 }
 

@@ -1,47 +1,43 @@
-# readme generator
+# Readme Generator
 
   ## Description
   
-  a readme generator
+  A readme generator app that will help the user to quickly generate a README file with the use of prompts
   
   ## Table of Contents
   
-  - you can install it(#installation)
-  - you can use it(#usage)
-  - no contributions so far(#contribution)
-  - MIT License(#license)
-  - (#badge)
-  - it has been tested(#tests)
-  - Questions
+  - [installation](#installation)
+  - [usage](#usage)
+  - [contribution](#contribution)
+  - [license](#license)
+  - [badge](#badge)
+  - [tests](#tests)
+  - [Questions](#questions)
   
   
   
   ## Installation
   
-   you can install it
+   npm inquirer and node
+   ![Application Screenshot](/Assets/Screenshot-terminal.jpg)
+   ![Video](/Assets/Readme.video.webm)
   
   ## Usage
-   you can use it
+   The user can use the README Generator by opening the terminal and by typing node index.js to start the prompts
   
   ## Contribution Guidelines
   
-   no contributions so far
+   No contributions so far
   
   ## License
    MIT License
   
-  
-
-  
-  
-  
-  
-  
+   
   
   ## Tests
-   it has been tested
+   Tested
    
-   ## Questions
-     Github_Username: https://github.com/NadineTsianta
-     Contact_me: k.tsianta@rocketmail.com
+  ## Questions
+   [Github_Profile](https://github.com/NadineTsianta)
+   [Contact_me](k.tsianta@rocketmail.com)
    

@@ -5,7 +5,6 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 
 
-
 // array of questions for user
 const questions = [{
     type: 'input',
@@ -57,11 +56,18 @@ const questions = [{
     message: 'Provide your Github username *(No need to insert the entire url, juste the username: https://github.com/{username})',
     name: 'username'
 }, 
-// {
-//     type: 'input',
-//     message: 'Insert information for the badge',
-//     name: 'badge'
-// }
+{
+    type: 'input',
+    message: 'If applicable, provide filepath to images *(example ./Assets/example.jpg)',
+    name: 'image'
+}, 
+{
+    type: 'input',
+    message: 'If applicable, provide link to video *(example: https://app.screencastify.com/v3/watch/video)',
+    name: 'video'
+}, 
+
+
 
 ];
 
