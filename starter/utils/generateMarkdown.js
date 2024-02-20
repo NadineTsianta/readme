@@ -8,12 +8,12 @@ function generateMarkdown(response) {
   
   ## Table of Contents
   
-  - ${[response.installation]}(#installation)
-  - ${[response.usage]}(#usage)
-  - ${[response.contribution]}(#contribution)
-  - ${[response.license]}(#license)
-  - ${[response.badge]}(#badge)
-  - ${[response.tests]}(#tests)
+  - ${[installation]}(#installation)
+  - ${[usage]}(#usage)
+  - ${[contribution]}(#contribution)
+  - ${[license]}(#license)
+  - ${[badge]}(#badge)
+  - ${[tests]}(#tests)
   - Questions
   
   
@@ -33,18 +33,16 @@ function generateMarkdown(response) {
    ${[response.license]}
   
   
-  ## Badge
+
   
-   ![Badge](https://img.shields.io/badge/${badge}-blue)
   
-  Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
   
   
   ## Tests
    ${[response.tests]}
    
-   ## Questions
-     Github_Username: ${response.username}
+  ## Questions
+     Github_Username: https://github.com/${response.username}
      Contact_me: ${response.email}
    `;
 }
