@@ -20,7 +20,7 @@
   
    npm inquirer and node
    ![Application Screenshot](/Assets/Screenshot-terminal.jpg)
-   ![Video](/Assets/Readme.video.webm)
+   [Video](https://app.screencastify.com/v3/watch/gWEydqohMSCrprzXqH2V)
   
   ## Usage
    The user can use the README Generator by opening the terminal and by typing node index.js to start the prompts
